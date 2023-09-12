@@ -33,9 +33,7 @@ COPY . /app
 #############################################
 FROM base as installed
 
-
 RUN poetry install
-
 
 #############################################
 FROM installed as broken
