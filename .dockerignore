@@ -1,0 +1,17 @@
+# Ignore everything
+**
+
+# Except for required files and source
+!poetry.lock
+!poetry.toml
+!pyproject.toml
+!README.md
+!onefish
+!tests
+
+# Ignore things that might be inside the folders above
+**/*~
+**/__pycache__*
+**/*.log
+**/.DS_Store
+**/Thumbs.db
