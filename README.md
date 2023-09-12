@@ -56,7 +56,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 To reproduce the failure, run this command inside the container:
 ```shell
-poetry add git+https://github.com/mrefish/nofish.git`
+poetry add git+https://github.com/mrefish/nofish.git
 ```
 
 
