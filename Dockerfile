@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 #############################################
-FROM python:3.9.17-slim-bullseye AS base
+FROM python:3.9.17-slim-bookworm AS base
 
 # Setup environment variables
 ENV APP_ROOT="/app"
@@ -37,4 +37,4 @@ RUN poetry install
 
 #############################################
 FROM installed as broken
-RUN poetry add git+https://github.com/mrefish/nofish.git
+RUN poetry add git+https://github.com/mrefish/nofish.git -vvv
