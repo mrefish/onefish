@@ -1,5 +1,7 @@
 # Description
-This is a test repo to reproduce an issue resolving git dependencies with Poetry. Credit for reproduction steps goes to @abefrandsen and @gvoronov <3.
+A repository to reproduce https://github.com/python-poetry/poetry/issues/8433
+
+When a project has two dependencies that specify a shared git dependency inconsistently with a `.git` at the end of the shared dependency URL, it results in a `SolverProblemError`. Credit for reproduction steps goes to @abefrandsen and @gvoronov <3.
 
 
 ## Repositories
